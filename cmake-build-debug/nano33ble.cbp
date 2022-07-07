@@ -1,0 +1,2032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nano33ble"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=50205"/>
+					<Add option="-DARDUINO_ARDUINO_NANO33BLE"/>
+					<Add option="-DARDUINO_ARCH_NRF52840"/>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DBOARD_PCA10056"/>
+					<Add option="-D__CMSIS_RTOS"/>
+					<Add option="-DCMSIS_VECTAB_VIRTUAL"/>
+					<Add option="-DCMSIS_VECTAB_VIRTUAL_HEADER_FILE=&quot;cmsis_nvic.h&quot;"/>
+					<Add option="-DCOMPONENT_FLASHIAP=1"/>
+					<Add option="-DCONFIG_GPIO_AS_PINRESET"/>
+					<Add option="-D__CORTEX_M4"/>
+					<Add option="-DDEVICE_ANALOGIN=1"/>
+					<Add option="-DDEVICE_FLASH=1"/>
+					<Add option="-DDEVICE_I2C=1"/>
+					<Add option="-DDEVICE_I2C_ASYNCH=1"/>
+					<Add option="-DDEVICE_I2CSLAVE=1"/>
+					<Add option="-DDEVICE_INTERRUPTIN=1"/>
+					<Add option="-DDEVICE_LPTICKER=1"/>
+					<Add option="-DDEVICE_PORTIN=1"/>
+					<Add option="-DDEVICE_PORTINOUT=1"/>
+					<Add option="-DDEVICE_PORTOUT=1"/>
+					<Add option="-DDEVICE_PWMOUT=1"/>
+					<Add option="-DDEVICE_SERIAL=1"/>
+					<Add option="-DDEVICE_SERIAL_ASYNCH=1"/>
+					<Add option="-DDEVICE_SERIAL_FC=1"/>
+					<Add option="-DDEVICE_SLEEP=1"/>
+					<Add option="-DDEVICE_SPI=1"/>
+					<Add option="-DDEVICE_SPI_ASYNCH=1"/>
+					<Add option="-DDEVICE_SYSTICK_CLK_OFF_DURING_SLEEP=1"/>
+					<Add option="-DDEVICE_TRNG=1"/>
+					<Add option="-DDEVICE_USBDEVICE=1"/>
+					<Add option="-DDEVICE_USTICKER=1"/>
+					<Add option="-DFEATURE_BLE=1"/>
+					<Add option="-DFEATURE_CRYPTOCELL310=1"/>
+					<Add option="-DFEATURE_STORAGE=1"/>
+					<Add option="-D__FPU_PRESENT=1"/>
+					<Add option="-D__MBED__=1"/>
+					<Add option="-DMBED_BUILD_TIMESTAMP=1637229559.1466858"/>
+					<Add option="-D__MBED_CMSIS_RTOS_CM"/>
+					<Add option="-DMBED_MPU_CUSTOM"/>
+					<Add option="-DMBED_TICKLESS"/>
+					<Add option="-DMBEDTLS_CONFIG_HW_SUPPORT"/>
+					<Add option="-DNRF52840_XXAA"/>
+					<Add option="-DNRF52_PAN_20"/>
+					<Add option="-DSWI_DISABLE0"/>
+					<Add option="-DTARGET_ARDUINO_NANO33BLE"/>
+					<Add option="-DTARGET_CORDIO"/>
+					<Add option="-DTARGET_CORDIO_LL"/>
+					<Add option="-DTARGET_CORTEX"/>
+					<Add option="-DTARGET_CORTEX_M"/>
+					<Add option="-DTARGET_LIKE_CORTEX_M4"/>
+					<Add option="-DTARGET_LIKE_MBED"/>
+					<Add option="-DTARGET_M4"/>
+					<Add option="-DTARGET_MCU_NRF52840"/>
+					<Add option="-DTARGET_NAME=ARDUINO_NANO33BLE"/>
+					<Add option="-DTARGET_NORDIC"/>
+					<Add option="-DTARGET_NORDIC_CORDIO"/>
+					<Add option="-DTARGET_NRF52"/>
+					<Add option="-DTARGET_NRF52840"/>
+					<Add option="-DTARGET_NRF5x"/>
+					<Add option="-DTARGET_RELEASE"/>
+					<Add option="-DTARGET_RTOS_M4_M7"/>
+					<Add option="-DTARGET_SDK_15_0"/>
+					<Add option="-DTARGET_SOFTDEVICE_NONE"/>
+					<Add option="-DTOOLCHAIN_GCC"/>
+					<Add option="-DTOOLCHAIN_GCC_ARM"/>
+					<Add option="-DWSF_MAX_HANDLERS=10"/>
+					<Add option="-DMBED_NO_GLOBAL_USING_DIRECTIVE=1"/>
+					<Add option="-DUSE_ARDUINO_PINOUT"/>
+					<Add option="-DARDUINO=10810"/>
+					<Add option="-DARDUINO_ARCH_MBED"/>
+					<Add option="-D__PLATFORMIO_BUILD_DEBUG__"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/include"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/src"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Wire"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/cores/arduino"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/cores/arduino/api/deprecated"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/cores/arduino/api/deprecated-avr-comp"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/variants/ARDUINO_NANO33BLE"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Ethernet/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Himax_HM01B0"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/KernelDebug/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/MRI/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Nano33BLE_System/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Nicla_System/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/PDM/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Audio/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Camera/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_SDCARD/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_SDRAM/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_System/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Video/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_lvgl/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/RPC/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/SFU/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/SPI"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Scheduler/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/SocketWrapper/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/ThreadDebug/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/USBAudio"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/USBHID/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/USBHOST/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/USBMSD/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/WiFi/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/doom/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/ea_malloc"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/mbed-memory-status"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/openamp_arduino/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/rpclib/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/arm-none-eabi/include/c++/8.2.1"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/arm-none-eabi/include/c++/8.2.1/arm-none-eabi"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/lib/gcc/arm-none-eabi/8.2.1/include"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/lib/gcc/arm-none-eabi/8.2.1/include-fixed"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/arm-none-eabi/include"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=50205"/>
+					<Add option="-DARDUINO_ARDUINO_NANO33BLE"/>
+					<Add option="-DARDUINO_ARCH_NRF52840"/>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DBOARD_PCA10056"/>
+					<Add option="-D__CMSIS_RTOS"/>
+					<Add option="-DCMSIS_VECTAB_VIRTUAL"/>
+					<Add option="-DCMSIS_VECTAB_VIRTUAL_HEADER_FILE=&quot;cmsis_nvic.h&quot;"/>
+					<Add option="-DCOMPONENT_FLASHIAP=1"/>
+					<Add option="-DCONFIG_GPIO_AS_PINRESET"/>
+					<Add option="-D__CORTEX_M4"/>
+					<Add option="-DDEVICE_ANALOGIN=1"/>
+					<Add option="-DDEVICE_FLASH=1"/>
+					<Add option="-DDEVICE_I2C=1"/>
+					<Add option="-DDEVICE_I2C_ASYNCH=1"/>
+					<Add option="-DDEVICE_I2CSLAVE=1"/>
+					<Add option="-DDEVICE_INTERRUPTIN=1"/>
+					<Add option="-DDEVICE_LPTICKER=1"/>
+					<Add option="-DDEVICE_PORTIN=1"/>
+					<Add option="-DDEVICE_PORTINOUT=1"/>
+					<Add option="-DDEVICE_PORTOUT=1"/>
+					<Add option="-DDEVICE_PWMOUT=1"/>
+					<Add option="-DDEVICE_SERIAL=1"/>
+					<Add option="-DDEVICE_SERIAL_ASYNCH=1"/>
+					<Add option="-DDEVICE_SERIAL_FC=1"/>
+					<Add option="-DDEVICE_SLEEP=1"/>
+					<Add option="-DDEVICE_SPI=1"/>
+					<Add option="-DDEVICE_SPI_ASYNCH=1"/>
+					<Add option="-DDEVICE_SYSTICK_CLK_OFF_DURING_SLEEP=1"/>
+					<Add option="-DDEVICE_TRNG=1"/>
+					<Add option="-DDEVICE_USBDEVICE=1"/>
+					<Add option="-DDEVICE_USTICKER=1"/>
+					<Add option="-DFEATURE_BLE=1"/>
+					<Add option="-DFEATURE_CRYPTOCELL310=1"/>
+					<Add option="-DFEATURE_STORAGE=1"/>
+					<Add option="-D__FPU_PRESENT=1"/>
+					<Add option="-D__MBED__=1"/>
+					<Add option="-DMBED_BUILD_TIMESTAMP=1637229559.1466858"/>
+					<Add option="-D__MBED_CMSIS_RTOS_CM"/>
+					<Add option="-DMBED_MPU_CUSTOM"/>
+					<Add option="-DMBED_TICKLESS"/>
+					<Add option="-DMBEDTLS_CONFIG_HW_SUPPORT"/>
+					<Add option="-DNRF52840_XXAA"/>
+					<Add option="-DNRF52_PAN_20"/>
+					<Add option="-DSWI_DISABLE0"/>
+					<Add option="-DTARGET_ARDUINO_NANO33BLE"/>
+					<Add option="-DTARGET_CORDIO"/>
+					<Add option="-DTARGET_CORDIO_LL"/>
+					<Add option="-DTARGET_CORTEX"/>
+					<Add option="-DTARGET_CORTEX_M"/>
+					<Add option="-DTARGET_LIKE_CORTEX_M4"/>
+					<Add option="-DTARGET_LIKE_MBED"/>
+					<Add option="-DTARGET_M4"/>
+					<Add option="-DTARGET_MCU_NRF52840"/>
+					<Add option="-DTARGET_NAME=ARDUINO_NANO33BLE"/>
+					<Add option="-DTARGET_NORDIC"/>
+					<Add option="-DTARGET_NORDIC_CORDIO"/>
+					<Add option="-DTARGET_NRF52"/>
+					<Add option="-DTARGET_NRF52840"/>
+					<Add option="-DTARGET_NRF5x"/>
+					<Add option="-DTARGET_RELEASE"/>
+					<Add option="-DTARGET_RTOS_M4_M7"/>
+					<Add option="-DTARGET_SDK_15_0"/>
+					<Add option="-DTARGET_SOFTDEVICE_NONE"/>
+					<Add option="-DTOOLCHAIN_GCC"/>
+					<Add option="-DTOOLCHAIN_GCC_ARM"/>
+					<Add option="-DWSF_MAX_HANDLERS=10"/>
+					<Add option="-DMBED_NO_GLOBAL_USING_DIRECTIVE=1"/>
+					<Add option="-DUSE_ARDUINO_PINOUT"/>
+					<Add option="-DARDUINO=10810"/>
+					<Add option="-DARDUINO_ARCH_MBED"/>
+					<Add option="-D__PLATFORMIO_BUILD_DEBUG__"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/include"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/src"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Wire"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src"/>
+					<Add directory="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/cores/arduino"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/cores/arduino/api/deprecated"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/cores/arduino/api/deprecated-avr-comp"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/variants/ARDUINO_NANO33BLE"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Ethernet/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Himax_HM01B0"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/KernelDebug/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/MRI/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Nano33BLE_System/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Nicla_System/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/PDM/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Audio/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Camera/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_SDCARD/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_SDRAM/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_System/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_Video/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Portenta_lvgl/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/RPC/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/SFU/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/SPI"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/Scheduler/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/SocketWrapper/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/ThreadDebug/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/USBAudio"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/USBHID/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/USBHOST/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/USBMSD/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/WiFi/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/doom/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/ea_malloc"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/mbed-memory-status"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/openamp_arduino/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/framework-arduino-mbed/libraries/rpclib/src"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/arm-none-eabi/include/c++/8.2.1"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/arm-none-eabi/include/c++/8.2.1/arm-none-eabi"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/lib/gcc/arm-none-eabi/8.2.1/include"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/lib/gcc/arm-none-eabi/8.2.1/include-fixed"/>
+					<Add directory="C:/Users/noepl/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.190214/arm-none-eabi/include"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/noepl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/.github/dependabot.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/.github/workflows/compile-examples.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/.github/workflows/spell-check.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/.github/workflows/sync-labels.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/examples/Central/LedControl/LedControl.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/examples/Central/PeripheralExplorer/PeripheralExplorer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/examples/Central/Scan/Scan.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/examples/Central/ScanCallback/ScanCallback.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/examples/Central/SensorTagButton/SensorTagButton.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/examples/Peripheral/BatteryMonitor/BatteryMonitor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/examples/Peripheral/ButtonLED/ButtonLED.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/examples/Peripheral/CallbackLED/CallbackLED.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/examples/Peripheral/LED/LED.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/ArduinoBLE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEAdvertisingData.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEAdvertisingData.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLECharacteristic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLECharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEDescriptor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEDescriptor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEProperty.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEStringCharacteristic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLEStringCharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLETypedCharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLETypedCharacteristics.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/BLETypedCharacteristics.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalAttribute.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalAttribute.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalCharacteristic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalCharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalDescriptor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalDescriptor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/local/BLELocalService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteAttribute.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteAttribute.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteCharacteristic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteCharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteDescriptor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteDescriptor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/remote/BLERemoteService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/ATT.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/ATT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/BLELinkedList.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/BLEUuid.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/BLEUuid.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/GAP.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/GAP.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/GATT.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/GATT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/HCI.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/HCI.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/HCICordioTransport.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/HCICordioTransport.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/HCITransport.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/HCIUartTransport.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/HCIUartTransport.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/L2CAPSignaling.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE/src/utility/L2CAPSignaling.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/.github/workflows/compile-examples.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/.github/workflows/spell-check.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/examples/Central/LedControl/LedControl.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/examples/Central/PeripheralExplorer/PeripheralExplorer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/examples/Central/Scan/Scan.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/examples/Central/ScanCallback/ScanCallback.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/examples/Central/SensorTagButton/SensorTagButton.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/examples/Peripheral/BatteryMonitor/BatteryMonitor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/examples/Peripheral/ButtonLED/ButtonLED.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/examples/Peripheral/CallbackLED/CallbackLED.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/examples/Peripheral/LED/LED.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/ArduinoBLE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEAdvertisingData.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEAdvertisingData.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLECharacteristic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLECharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEDescriptor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEDescriptor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEProperty.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEStringCharacteristic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLEStringCharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLETypedCharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLETypedCharacteristics.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/BLETypedCharacteristics.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalAttribute.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalAttribute.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalCharacteristic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalCharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalDescriptor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalDescriptor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/local/BLELocalService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteAttribute.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteAttribute.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteCharacteristic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteCharacteristic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteDescriptor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteDescriptor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/remote/BLERemoteService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/ATT.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/ATT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/BLELinkedList.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/BLEUuid.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/BLEUuid.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/GAP.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/GAP.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/GATT.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/GATT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/HCI.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/HCI.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/HCICordioTransport.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/HCICordioTransport.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/HCITransport.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/HCIUartTransport.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/HCIUartTransport.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/L2CAPSignaling.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/ArduinoBLE@1.2.1/src/utility/L2CAPSignaling.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/.github/workflows/compile-examples.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/.github/workflows/spell-check.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/examples/SimpleAccelerometer/SimpleAccelerometer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/examples/SimpleGyroscope/SimpleGyroscope.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/examples/SimpleMagnetometer/SimpleMagnetometer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/src/Arduino_LSM9DS1.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/src/LSM9DS1.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_LSM9DS1/src/LSM9DS1.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/hello_world/arduino_constants.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/hello_world/arduino_main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/hello_world/arduino_output_handler.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/hello_world/constants.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/hello_world/hello_world.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/hello_world/main_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/hello_world/model.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/hello_world/model.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/hello_world/output_handler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/image_provider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/image_recognition_model.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/image_recognition_model.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/stm32f746_discovery_display_util.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/stm32f746_discovery_display_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/stm32f746_discovery_image_provider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/stm32f746_discovery_image_util.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/stm32f746_discovery_image_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/image_recognition_experimental/util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/accelerometer_handler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/arduino_accelerometer_handler.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/arduino_main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/arduino_output_handler.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/constants.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/gesture_predictor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/gesture_predictor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/magic_wand.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/magic_wand_model_data.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/magic_wand_model_data.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/main_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/output_handler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/sparkfun_edge_accelerometer_handler.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/magic_wand/sparkfun_edge_output_handler.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/arduino_audio_provider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/arduino_command_responder.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/arduino_main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/audio_provider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/command_responder.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/feature_provider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/feature_provider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/main_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_micro_features_generator.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_micro_features_generator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_micro_model_settings.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_micro_model_settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_model.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_model.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_no_micro_features_data.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_no_micro_features_data.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_yes_micro_features_data.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_features_yes_micro_features_data.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/micro_speech.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/recognize_commands.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/recognize_commands.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/sparkfun_edge_audio_provider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/micro_speech/sparkfun_edge_command_responder.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/arduino_HM01B0_platform.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/arduino_detection_responder.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/arduino_image_provider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/arduino_main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/detection_responder.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/himax_driver_HM01B0.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/himax_driver_HM01B0.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/himax_driver_HM01B0_RAW8_QVGA_8bits_lsb_5fps.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/himax_driver_HM01B0_Walking1s_01.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/himax_driver_HM01B0_debug.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/himax_driver_HM01B0_debug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/himax_driver_HM01B0_optimized.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/himax_driver_HM01B0_optimized.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/image_provider.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/main_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/model_settings.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/model_settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/person_detect_model_data.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/person_detect_model_data.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/person_detection.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/sparkfun_edge_detection_responder.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/examples/person_detection/sparkfun_edge_image_provider.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/TensorFlowLite.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/core/public/version.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/c/builtin_op_data.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/c/c_api_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/c/common.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/c/common.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/core/api/error_reporter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/core/api/error_reporter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/core/api/flatbuffer_conversions.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/core/api/flatbuffer_conversions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/core/api/op_resolver.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/core/api/op_resolver.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/core/api/profiler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/core/api/tensor_utils.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/core/api/tensor_utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/bits.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/fft.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/fft.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/fft_util.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/fft_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/filterbank.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/filterbank.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/frontend.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/frontend.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/frontend_util.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/frontend_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/log_lut.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/log_lut.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/log_scale.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/log_scale.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/log_scale_util.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/log_scale_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control_util.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/window.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/window.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/window_util.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/experimental/microfrontend/lib/window_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/common.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/compatibility.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/cppmath.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/max.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/min.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/optimized/neon_check.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/portable_tensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/quantization_util.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/quantization_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/add.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/arg_min_max.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/binary_function.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/ceil.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/comparisons.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/concatenation.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/conv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/depthwiseconv_float.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/depthwiseconv_uint8.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/dequantize.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/floor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/fully_connected.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/hard_swish.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/add.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/conv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/depthwise_conv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/fully_connected.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/l2normalization.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/logistic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/mean.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/mul.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/pooling.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/tanh.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/integer_ops/transpose_conv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/l2normalization.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/logistic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/maximum_minimum.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/mul.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/neg.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/pad.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/pooling.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/prelu.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/process_broadcast_shapes.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/quantize.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/reduce.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/requantize.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/resize_nearest_neighbor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/round.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/softmax.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/strided_slice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/sub.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/tanh.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/reference/transpose_conv.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/strided_slice_logic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/tensor_ctypes.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/internal/types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/kernel_util.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/kernel_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/op_macros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/kernels/padding.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/all_ops_resolver.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/all_ops_resolver.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/arduino/debug_log.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/benchmarks/keyword_scrambled_model_data.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/compatibility.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/debug_log.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/activation_utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/activations.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/arg_min_max.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/ceil.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/circular_buffer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/cmsis-nn/add.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/cmsis-nn/conv.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/cmsis-nn/depthwise_conv.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/cmsis-nn/fully_connected.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/cmsis-nn/mul.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/cmsis-nn/pooling.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/cmsis-nn/softmax.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/cmsis-nn/svdf.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/comparisons.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/concatenation.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/conv_test.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/conv_test_common.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/dequantize.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/detection_postprocess.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/elementwise.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/ethosu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/ethosu.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/flexbuffers_generated_data.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/floor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/fully_connected.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/hard_swish.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/kernel_runner.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/kernel_runner.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/kernel_util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/kernel_util_full.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/l2norm.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/logical.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/logistic.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/maximum_minimum.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/micro_ops.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/micro_utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/neg.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/pack.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/pad.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/prelu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/quantize.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/quantize.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/quantize_common.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/reduce.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/reshape.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/round.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/shape.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/split.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/split_v.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/strided_slice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/sub.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/svdf.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/svdf_common.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/tanh.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/transpose_conv.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/kernels/unpack.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/memory_helpers.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/memory_helpers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/memory_planner/linear_memory_planner.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/memory_planner/memory_planner.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_allocator.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_allocator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_error_reporter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_error_reporter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_interpreter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_interpreter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_mutable_op_resolver.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_op_resolver.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_profiler.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_profiler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_string.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_string.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_time.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_time.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_utils.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/micro_utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/recording_micro_allocator.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/recording_micro_allocator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/recording_micro_interpreter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/recording_simple_memory_allocator.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/recording_simple_memory_allocator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/simple_memory_allocator.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/simple_memory_allocator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/test_helpers.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/test_helpers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/testing/micro_test.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/testing/test_conv_model.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/testing/test_conv_model.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/Core/Include/cmsis_compiler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/arm_common_tables.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/arm_helium_utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/arm_math.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/arm_math_memory.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/arm_math_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/basic_math_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/bayes_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/complex_math_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/controller_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/distance_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/fast_math_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/filtering_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/interpolation_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/matrix_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/none.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/statistics_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/support_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/svm_defines.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/svm_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/transform_functions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/DSP/Include/dsp/utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Include/arm_nn_tables.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Include/arm_nn_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Include/arm_nnfunctions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Include/arm_nnsupportfunctions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/SVDFunctions/arm_svdf_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/kissfft/_kiss_fft_guts.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/kissfft/kiss_fft.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/kissfft/kiss_fft.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/kissfft/tools/kiss_fftr.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/micro/tools/make/downloads/kissfft/tools/kiss_fftr.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/portable_type_to_tflitetype.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/schema/schema_generated.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/schema/schema_utils.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/schema/schema_utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/tensorflow/lite/version.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/flatbuffers/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/flatbuffers/include/flatbuffers/base.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/flatbuffers/include/flatbuffers/flatbuffers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/flatbuffers/include/flatbuffers/flexbuffers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/flatbuffers/include/flatbuffers/stl_emulation.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/flatbuffers/include/flatbuffers/util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/gemmlowp/fixedpoint/fixedpoint.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/gemmlowp/fixedpoint/fixedpoint_neon.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/gemmlowp/fixedpoint/fixedpoint_sse.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/gemmlowp/internal/detect_platform.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/kissfft/_kiss_fft_guts.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/kissfft/kiss_fft.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/kissfft/tools/kiss_fftr.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/Arduino_TensorFlowLite/src/third_party/ruy/ruy/profiler/instrumentation.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/.pio/libdeps/debug/integrity.dat">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/res/wallet_model_data.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/noepl/Documents/INSA/4A/PIR/dataCollection/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
