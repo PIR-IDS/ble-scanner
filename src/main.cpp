@@ -11,7 +11,23 @@
   This example code is in the public domain.
 */
 
+#include <chrono>
+#include <ctime>
+#include <string>
 #include <ArduinoBLE.h>
+
+std::string getTime() {
+    using chrono_clock = std::chrono::system_clock;
+    auto now = chrono_clock::now();
+    auto now_c = chrono_clock::to_time_t(now);
+
+    char dateUTCBuffer[80];
+    std::strftime(dateUTCBuffer, sizeof(dateUTCBuffer), "%Y-%m-%dT%H:%M:%S.000Z", std::gmtime(&now_c));
+    std::string str(dateUTCBuffer);
+    return str;
+}
+
+
 
 void setup() {
   Serial.begin(9600);
@@ -62,6 +78,10 @@ void loop() {
     // print the RSSI
     Serial.print("RSSI: ");
     Serial.println(peripheral.rssi());
+    
+
+    Serial.print("Time: ");
+    Serial.println(getTime().c_str());
 
     Serial.println();
   }
