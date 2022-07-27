@@ -1,23 +1,23 @@
-# PIR – Wallet Data Collector for Arduino
+# PIR – BLE Scanner for Arduino
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/PIR-IDS/wallet-data-collector">
+  <a href="https://github.dev/PIR-IDS/ble-scanner">
     <img src="https://avatars.githubusercontent.com/u/99486891" alt="Logo" width="130">
   </a>
 
   <p align="center">
-    IDS: Code to collect the data for the wallet model
+    Code to scan the nearby BLE advertisments 
     <br />
-    <a href="https://github.com/PIR-IDS/wallet-data-collector/releases"><strong>See Releases »</strong></a>
+    <a href="https://github.dev/PIR-IDS/ble-scanner/releases"><strong>See Releases »</strong></a>
     <br />
     <br />
     <a href="#">Research Paper</a>
     ·
-    <a href="https://github.com/PIR-IDS/wallet-data-collector/actions/workflows/test.yml">Test Results</a>
+    <a href="https://github.dev/PIR-IDS/ble-scanner/actions/workflows/test.yml">Test Results</a>
     ·
-    <a href="https://github.com/PIR-IDS/wallet-data-collector/projects">Show Project</a>
+    <a href="https://github.dev/PIR-IDS/ble-scanner/projects">Show Project</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This code will be used in order to detect anomalies and to inform our IDS about it.
+This code will be used in order to listen the advertising BLE devices with an arduino to spot potential attacker.
 
 ### Built With
 * [C++](https://isocpp.org/)
@@ -78,7 +78,7 @@ This code will be used in order to detect anomalies and to inform our IDS about 
 
 1. Clone the project
    ```sh
-   git clone https://github.com/PIR-IDS/wallet-data-collector.git
+   git clone https://github.dev/PIR-IDS/ble-scanner.git
    ```
 2. Install the dependencies by typing the following command while being in the project root:
    ```sh
@@ -133,15 +133,14 @@ _TODO_
 
 ### Documentation
 
-#### How to collect the data ?
-  
-To collect properly the data of the accelerometer without having to plug the card to a pc, we use the bluetooth connection by running the ble-reader on a pc to retrieve the accelerometer data. After uploading the code on the arduino, unplug it, start the battery and put the arduino in the wallet you want to test. Then, record and retrieve the data by running the ble-reader on a laptop.
-  
-For the positive samples, edit the main.cpp file to send 500 lines on each samples.
-  
-For the negative samples, there are two options. First, we can record the data of the wallet utilisation without pay card utilisation. To do that, the method is similar as the one for the positive samples. We can also record the data of the wallet during non-wallet utilisation (walking, climbings stairs, ...). To do that, edit the main.cpp file to send 2000 lines on each samples.
-  
-The data of the accelerometer s collected by the arduino between 2 transmissions. The moves done during transmission are not recorded.
+Once the code is runniing on the Arduino, you can visualize the data in a terminal with the following command :
+  ```sh
+  pio device monitor
+  ```
+You can save this output in a text file :
+  ```sh
+  pio device monitor -f default -f log2file
+  ```
 
 ***
 
@@ -163,6 +162,6 @@ Noé Chauveau [ [GitHub](https://github.com/Noecv) ] – Co-developer
 <!-- CONTACT -->
 ## Contact
 
-Project Link : [https://github.com/PIR-IDS/wallet-data-collector](https://github.com/PIR-IDS/wallet-data-collector)
+Project Link : [https://github.dev/PIR-IDS/ble-scanner](https://github.com/PIR-IDS/wallet-data-collector)
 
 Organization Link : [https://github.com/PIR-IDS](https://github.com/PIR-IDS)
