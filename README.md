@@ -3,21 +3,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.dev/PIR-IDS/ble-scanner">
+  <a href="https://github.com/PIR-IDS/ble-scanner">
     <img src="https://avatars.githubusercontent.com/u/99486891" alt="Logo" width="130">
   </a>
 
   <p align="center">
     Code to scan the nearby BLE advertisments 
     <br />
-    <a href="https://github.dev/PIR-IDS/ble-scanner/releases"><strong>See Releases »</strong></a>
+    <a href="https://github.com/PIR-IDS/ble-scanner/releases"><strong>See Releases »</strong></a>
     <br />
     <br />
     <a href="#">Research Paper</a>
     ·
-    <a href="https://github.dev/PIR-IDS/ble-scanner/actions/workflows/test.yml">Test Results</a>
+    <a href="https://github.com/PIR-IDS/ble-scanner/actions/workflows/test.yml">Test Results</a>
     ·
-    <a href="https://github.dev/PIR-IDS/ble-scanner/projects">Show Project</a>
+    <a href="https://github.com/PIR-IDS/ble-scanner/projects">Show Project</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -78,7 +78,7 @@ This code will be used in order to listen the advertising BLE devices with an ar
 
 1. Clone the project
    ```sh
-   git clone https://github.dev/PIR-IDS/ble-scanner.git
+   git clone https://github.com/PIR-IDS/ble-scanner.git
    ```
 2. Install the dependencies by typing the following command while being in the project root:
    ```sh
@@ -133,7 +133,7 @@ _TODO_
 
 ### Documentation
 
-Once the code is runniing on the Arduino, you can visualize the data in a terminal with the following command :
+Once the code is running on the Arduino, you can visualize the data in a terminal with the following command :
   ```sh
   pio device monitor
   ```
@@ -162,6 +162,6 @@ Noé Chauveau [ [GitHub](https://github.com/Noecv) ] – Co-developer
 <!-- CONTACT -->
 ## Contact
 
-Project Link : [https://github.dev/PIR-IDS/ble-scanner](https://github.com/PIR-IDS/wallet-data-collector)
+Project Link : [https://github.com/PIR-IDS/ble-scanner](https://github.com/PIR-IDS/wallet-data-collector)
 
 Organization Link : [https://github.com/PIR-IDS](https://github.com/PIR-IDS)
