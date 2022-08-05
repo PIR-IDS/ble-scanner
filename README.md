@@ -13,7 +13,7 @@
     <a href="https://github.com/PIR-IDS/ble-scanner/releases"><strong>See Releases »</strong></a>
     <br />
     <br />
-    <a href="#">Research Paper</a>
+    <a href="https://github.com/PIR-IDS/research-paper">Research Paper</a>
     ·
     <a href="https://github.com/PIR-IDS/ble-scanner/actions/workflows/test.yml">Test Results</a>
     ·
